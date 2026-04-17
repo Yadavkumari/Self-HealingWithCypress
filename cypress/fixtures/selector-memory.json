@@ -1,0 +1,42 @@
+{
+  "https://retail-website-two.vercel.app/__cypress/iframes/cypress%5Ce2e%5Cself_healing_showcase.cy.js?browserFamily=chromium|Login Email Field": {
+    "selector": "input[name=\"email\"]",
+    "timestamp": "2026-04-16T10:43:29.973Z"
+  },
+  "https://retail-website-two.vercel.app/__cypress/iframes/cypress%5Ce2e%5Cself_healing_showcase.cy.js?browserFamily=chromium|Login Password Field": {
+    "selector": "input[name=\"password\"]",
+    "timestamp": "2026-04-16T10:43:30.578Z"
+  },
+  "https://retail-website-two.vercel.app/__cypress/iframes/cypress%5Ce2e%5Cself_healing_showcase.cy.js?browserFamily=chromium|Login Submit Button": {
+    "selector": "button.rw-btn-primary",
+    "timestamp": "2026-04-16T10:43:31.071Z"
+  },
+  "https://retail-website-two.vercel.app/__cypress/iframes/cypress%5Ce2e%5Cself_healing_showcase.cy.js?browserFamily=chromium|Products Nav Link": {
+    "selector": "a[href*=\"products\"]",
+    "timestamp": "2026-04-16T10:43:32.888Z"
+  },
+  "https://retail-website-two.vercel.app/__cypress/iframes/cypress%5Ce2e%5Cself_healing_showcase.cy.js?browserFamily=chromium|Add to Cart Button": {
+    "selector": "button.rw-btn-primary",
+    "timestamp": "2026-04-16T10:43:33.102Z"
+  },
+  "https://retail-website-two.vercel.app/__cypress/iframes/cypress%5Ce2e%5Cself_healing_showcase.cy.js?browserFamily=chromium|Cart Badge": {
+    "selector": ".rw-pill",
+    "timestamp": "2026-04-16T10:43:34.594Z"
+  },
+  "https://retail-website-two.vercel.app/__cypress/iframes/cypress%5Ce2e%5Chealing-demo.cy.js?browserFamily=chromium|Login Email": {
+    "selector": "input[name=\"email\"]",
+    "timestamp": "2026-04-17T07:14:13.835Z"
+  },
+  "https://retail-website-two.vercel.app/__cypress/iframes/cypress%5Ce2e%5Chealing-demo.cy.js?browserFamily=chromium|Login Password": {
+    "selector": "input[name=\"password\"]",
+    "timestamp": "2026-04-17T07:14:14.473Z"
+  },
+  "https://retail-website-two.vercel.app/__cypress/iframes/cypress%5Ce2e%5Chealing-demo.cy.js?browserFamily=chromium|Login Button": {
+    "selector": "button.rw-btn-primary",
+    "timestamp": "2026-04-17T07:14:15.039Z"
+  },
+  "https://retail-website-two.vercel.app/__cypress/iframes/cypress%5Ce2e%5Chealing-demo.cy.js?browserFamily=chromium|Add to Cart Button": {
+    "selector": "button.rw-btn-primary",
+    "timestamp": "2026-04-17T07:14:17.087Z"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "https://retail-website-two.vercel.app|Login Email Field": {
+    "selector": "input[name=\"email\"]",
+    "lastHealed": "2026-04-16T10:18:44.699Z",
+    "hits": 1
+  },
+  "https://retail-website-two.vercel.app|Login Password Field": {
+    "selector": "input[name=\"password\"]",
+    "lastHealed": "2026-04-16T10:18:45.905Z",
+    "hits": 1
+  },
+  "https://retail-website-two.vercel.app|Login Submit Button": {
+    "selector": "button.rw-btn-primary",
+    "lastHealed": "2026-04-16T10:18:46.432Z",
+    "hits": 1
+  },
+  "https://retail-website-two.vercel.app|Products Nav Link": {
+    "selector": "a[href*=\"products\"]",
+    "lastHealed": "2026-04-16T10:18:48.715Z",
+    "hits": 1
+  },
+  "https://retail-website-two.vercel.app|Add to Cart Button": {
+    "selector": "button.rw-btn-primary",
+    "lastHealed": "2026-04-16T10:18:48.955Z",
+    "hits": 1
+  },
+  "https://retail-website-two.vercel.app|Cart Badge": {
+    "selector": ".rw-pill",
+    "lastHealed": "2026-04-16T10:18:50.352Z",
+    "hits": 1
+  }
+}
