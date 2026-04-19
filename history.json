@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "runId": "local-1776627358017",
+    "runNumber": "0",
+    "workflowName": "CI Self-Healing Test Suite",
+    "repository": "Yadavkumari/Self-HealingWithCypress",
+    "branch": "main",
+    "commitSha": "unknown",
+    "event": "push",
+    "generatedAt": "2026-04-19T19:35:58.017Z",
+    "totalRuns": 1,
+    "totalTestsCompleted": 7,
+    "totalSelectorHeals": 7,
+    "totalFlowHeals": 0,
+    "totalFailures": 0,
+    "estimatedTimeSaved": "3.5",
+    "healSuccessRate": "100.0",
+    "file": "runs/local-1776627358017.json"
+  }
+]
