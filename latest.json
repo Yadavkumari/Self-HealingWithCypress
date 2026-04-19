@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-19T22:34:09.567Z",
+  "generatedAt": "2026-04-19T22:46:54.597Z",
   "mode": "ci",
   "workflow": {
     "name": "Self-Healing Automation Dashboard CI",
-    "runNumber": "11",
-    "runId": "24640698514",
+    "runNumber": "12",
+    "runId": "24640928139",
     "event": "push",
     "repository": "Yadavkumari/Self-HealingWithCypress",
     "branch": "main",
-    "sha": "ea26d6f628afcf19b5c2fa506f2d162eaecd1750",
+    "sha": "4aec8d75940fc98d3e30f02093cb09db629b0777",
     "serverUrl": "https://github.com"
   },
   "stats": {
-    "totalRuns": 1,
+    "totalRuns": 2,
     "totalSelectorHeals": 15,
     "totalFlowHeals": 0,
     "totalFailures": 0,
@@ -34,16 +34,16 @@
   "contributors": [],
   "runs": [
     {
-      "runId": "24640698514",
-      "runStartedAt": "2026-04-19T22:30:32.858Z",
-      "runFinishedAt": "2026-04-19T22:34:06.632Z",
+      "runId": "24640928139",
+      "runStartedAt": "2026-04-19T22:43:18.725Z",
+      "runFinishedAt": "2026-04-19T22:46:52.406Z",
       "totalEvents": 15,
       "selectorHeals": 15,
       "flowHeals": 0,
       "failures": 0,
       "healRejections": 0,
       "testsCompleted": 15,
-      "testId": "24640698514",
+      "testId": "24640928139",
       "totalSteps": 15,
       "totalSelectorRecoveries": 15,
       "totalFlowRecoveries": 0,
@@ -60,7 +60,7 @@
             "intent": "Login Email Input",
             "success": true
           },
-          "timestamp": "2026-04-19T22:30:32.858Z"
+          "timestamp": "2026-04-19T22:43:18.725Z"
         },
         {
           "type": "selector_recovery_applied",
@@ -73,7 +73,7 @@
             "intent": "Submit Login Button",
             "success": true
           },
-          "timestamp": "2026-04-19T22:30:46.207Z"
+          "timestamp": "2026-04-19T22:43:32.060Z"
         },
         {
           "type": "selector_recovery_applied",
@@ -86,7 +86,7 @@
             "intent": "Add to Cart Commerce Button",
             "success": true
           },
-          "timestamp": "2026-04-19T22:31:07.981Z"
+          "timestamp": "2026-04-19T22:43:53.799Z"
         },
         {
           "type": "selector_recovery_applied",
@@ -99,7 +99,7 @@
             "intent": "Email Input",
             "success": true
           },
-          "timestamp": "2026-04-19T22:31:27.904Z"
+          "timestamp": "2026-04-19T22:44:13.697Z"
         },
         {
           "type": "selector_recovery_applied",
@@ -112,7 +112,7 @@
             "intent": "Sign In Button",
             "success": true
           },
-          "timestamp": "2026-04-19T22:31:42.283Z"
+          "timestamp": "2026-04-19T22:44:28.023Z"
         },
         {
           "type": "selector_recovery_applied",
@@ -125,7 +125,7 @@
             "intent": "Add to Cart Button",
             "success": true
           },
-          "timestamp": "2026-04-19T22:32:04.073Z"
+          "timestamp": "2026-04-19T22:44:49.769Z"
         },
         {
           "type": "selector_recovery_applied",
@@ -138,7 +138,7 @@
             "intent": "Login Email",
             "success": true
           },
-          "timestamp": "2026-04-19T22:32:22.139Z"
+          "timestamp": "2026-04-19T22:45:07.789Z"
         },
         {
           "type": "selector_recovery_applied",
@@ -151,7 +151,7 @@
             "intent": "Login Password",
             "success": true
           },
-          "timestamp": "2026-04-19T22:32:33.647Z"
+          "timestamp": "2026-04-19T22:45:19.269Z"
         },
         {
           "type": "selector_recovery_applied",
@@ -164,7 +164,7 @@
             "intent": "Login Button",
             "success": true
           },
-          "timestamp": "2026-04-19T22:32:45.133Z"
+          "timestamp": "2026-04-19T22:45:30.739Z"
         },
         {
           "type": "selector_recovery_applied",
@@ -177,7 +177,7 @@
             "intent": "Add to Cart Button",
             "success": true
           },
-          "timestamp": "2026-04-19T22:33:07.548Z"
+          "timestamp": "2026-04-19T22:45:53.297Z"
         },
         {
           "type": "selector_recovery_applied",
@@ -190,7 +190,7 @@
             "intent": "Login Email Field",
             "success": true
           },
-          "timestamp": "2026-04-19T22:33:20.455Z"
+          "timestamp": "2026-04-19T22:46:06.332Z"
         },
         {
           "type": "selector_recovery_applied",
@@ -203,7 +203,7 @@
             "intent": "Login Password Field",
             "success": true
           },
-          "timestamp": "2026-04-19T22:33:31.975Z"
+          "timestamp": "2026-04-19T22:46:17.811Z"
         },
         {
           "type": "selector_recovery_applied",
@@ -216,7 +216,7 @@
             "intent": "Login Submit Button",
             "success": true
           },
-          "timestamp": "2026-04-19T22:33:43.440Z"
+          "timestamp": "2026-04-19T22:46:29.258Z"
         },
         {
           "type": "selector_recovery_applied",
@@ -229,7 +229,7 @@
             "intent": "Products Nav Link",
             "success": true
           },
-          "timestamp": "2026-04-19T22:33:55.406Z"
+          "timestamp": "2026-04-19T22:46:41.209Z"
         },
         {
           "type": "selector_recovery_applied",
@@ -242,10 +242,10 @@
             "intent": "Add to Cart Button",
             "success": true
           },
-          "timestamp": "2026-04-19T22:34:06.632Z"
+          "timestamp": "2026-04-19T22:46:52.406Z"
         }
       ],
-      "durationMs": 213774
+      "durationMs": 213681
     }
   ],
   "memory": {}
