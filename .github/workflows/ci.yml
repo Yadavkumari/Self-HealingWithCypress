@@ -54,8 +54,9 @@ jobs:
           # Run the aggregator script
           node src/tools/generate-historical-data.js
           
-          # Copy updated history back to data-branch
+          # Copy updated data back to data-branch
           cp src/tools/history.json data-branch/
+          cp src/tools/latest.json data-branch/
           # Ensure runs directory exists and copy run specific JSON
           mkdir -p data-branch/runs
           cp src/tools/runs/* data-branch/runs/ || true
@@ -65,7 +66,7 @@ jobs:
           cd data-branch
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add history.json runs/
+          git add history.json latest.json runs/
           git commit -m "chore: update history for run ${{ github.run_id }}" || echo "No changes to commit"
           git push origin dashboard-data
 

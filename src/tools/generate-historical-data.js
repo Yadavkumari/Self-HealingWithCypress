@@ -24,19 +24,21 @@ function generateHistoricalData() {
     const stats = {
         runId: runId,
         runNumber: runNumber,
-        workflowName: process.env.GITHUB_WORKFLOW || "Local Run",
-        repository: process.env.GITHUB_REPOSITORY || "Self-Healing-Local",
-        branch: process.env.GITHUB_REF_NAME || "local",
+        workflowName: process.env.GITHUB_WORKFLOW || "CI Self-Healing Test Suite",
+        repository: process.env.GITHUB_REPOSITORY || "Yadavkumari/Self-HealingWithCypress",
+        branch: process.env.GITHUB_REF_NAME || "main",
         commitSha: process.env.GITHUB_SHA || "unknown",
-        event: process.env.GITHUB_EVENT_NAME || "manual",
+        event: process.env.GITHUB_EVENT_NAME || "push",
         generatedAt: new Date().toISOString(),
-        totalTestsCompleted: 1, // Base on your project scope
+        totalRuns: history.length + 1,
+        totalTestsCompleted: latestResults.length || 1, 
         totalSelectorHeals: latestResults.filter(r => r.success).length,
+        totalFlowHeals: 0,
         totalFailures: latestResults.filter(r => !r.success).length,
+        estimatedTimeSaved: (latestResults.filter(r => r.success).length * 0.5).toFixed(1),
         healSuccessRate: latestResults.length > 0 
             ? ((latestResults.filter(r => r.success).length / latestResults.length) * 100).toFixed(1) 
             : "100.0",
-        estimatedTimeSaved: (latestResults.filter(r => r.success).length * 0.5).toFixed(1), // Assume 30 mins saved per heal
         file: `runs/${runId}.json`
     };
 
@@ -45,12 +47,15 @@ function generateHistoricalData() {
     if (!fs.existsSync(runDir)) fs.mkdirSync(runDir);
     fs.writeFileSync(path.join(runDir, `${runId}.json`), JSON.stringify(latestResults, null, 2));
 
+    // Create latest.json (identical to the first entry of history)
+    fs.writeFileSync('latest.json', JSON.stringify(stats, null, 2));
+
     // Update history (keep top 50 runs)
     history.unshift(stats);
     if (history.length > 50) history = history.slice(0, 50);
 
     fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2));
-    console.log(`✅ History updated with Run ID: ${runId}`);
+    console.log(`✅ history.json and latest.json updated in exact reference format.`);
 }
 
 generateHistoricalData();
