@@ -1,0 +1,137 @@
+[
+  {
+    "timestamp": "2026-04-19T22:43:18.725Z",
+    "intent": "Login Email Input",
+    "originalSelector": "#totally-broken-id-101",
+    "healedSelector": "input[type='email'], input[name='email'], input[placeholder*='email' i]",
+    "confidence": 0.95,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-19T22:43:32.060Z",
+    "intent": "Submit Login Button",
+    "originalSelector": "button.non-existent-login-btn-99",
+    "healedSelector": "button[type='submit'], form button, button.rw-btn-primary",
+    "confidence": 0.9,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-19T22:43:53.799Z",
+    "intent": "Add to Cart Commerce Button",
+    "originalSelector": "#btn-invalid-commerce-uuid-42",
+    "healedSelector": "button[class*='cart' i], button[class*='add' i], button.rw-btn-primary",
+    "confidence": 0.85,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-19T22:44:13.697Z",
+    "intent": "Email Input",
+    "originalSelector": "input.old-email-field",
+    "healedSelector": "input[type='email'], input[name='email'], input[placeholder*='email' i]",
+    "confidence": 0.95,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-19T22:44:28.023Z",
+    "intent": "Sign In Button",
+    "originalSelector": "#legacy-login-btn-99",
+    "healedSelector": "button[type='submit'], form button, button.rw-btn-primary",
+    "confidence": 0.9,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-19T22:44:49.769Z",
+    "intent": "Add to Cart Button",
+    "originalSelector": "#btn-legacy-cart-add-42",
+    "healedSelector": "button[class*='cart' i], button[class*='add' i], button.rw-btn-primary",
+    "confidence": 0.85,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-19T22:45:07.789Z",
+    "intent": "Login Email",
+    "originalSelector": "#non-existent-email",
+    "healedSelector": "input[type='email'], input[name='email'], input[placeholder*='email' i]",
+    "confidence": 0.95,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-19T22:45:19.269Z",
+    "intent": "Login Password",
+    "originalSelector": "[data-testid=\"wrong-pass-id\"]",
+    "healedSelector": "input[type='password'], input[name='password']",
+    "confidence": 0.97,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-19T22:45:30.739Z",
+    "intent": "Login Button",
+    "originalSelector": "button.totally-wrong-class",
+    "healedSelector": "button[type='submit'], form button, button.rw-btn-primary",
+    "confidence": 0.9,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-19T22:45:53.297Z",
+    "intent": "Add to Cart Button",
+    "originalSelector": ".missing-cart-btn-selector",
+    "healedSelector": "button[class*='cart' i], button[class*='add' i], button.rw-btn-primary",
+    "confidence": 0.85,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-19T22:46:06.332Z",
+    "intent": "Login Email Field",
+    "originalSelector": "#broken-email-id",
+    "healedSelector": "input[type='email'], input[name='email'], input[placeholder*='email' i]",
+    "confidence": 0.95,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-19T22:46:17.811Z",
+    "intent": "Login Password Field",
+    "originalSelector": "[data-testid=\"wrong-password\"]",
+    "healedSelector": "input[type='password'], input[name='password']",
+    "confidence": 0.97,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-19T22:46:29.258Z",
+    "intent": "Login Submit Button",
+    "originalSelector": "button.wrong-class",
+    "healedSelector": "button[type='submit'], form button, button.rw-btn-primary",
+    "confidence": 0.9,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-19T22:46:41.209Z",
+    "intent": "Products Nav Link",
+    "originalSelector": "nav a[href=\"/wrong/url\"]",
+    "healedSelector": "nav a, a[href*='product'], a[href*='catalog']",
+    "confidence": 0.85,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-19T22:46:52.406Z",
+    "intent": "Add to Cart Button",
+    "originalSelector": ".btn-add-to-cart-missing",
+    "healedSelector": "button[class*='cart' i], button[class*='add' i], button.rw-btn-primary",
+    "confidence": 0.85,
+    "success": true,
+    "source": "heuristic"
+  }
+]
