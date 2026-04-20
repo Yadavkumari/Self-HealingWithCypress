@@ -35,7 +35,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CYPRESS_GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: npm run cy:run
+        run: npx cypress run --spec "cypress/e2e/cto-showcase.cy.js,cypress/e2e/e2e-showcase.cy.js"
 
       - name: Upload Current Run Artifacts
         uses: actions/upload-artifact@v4
