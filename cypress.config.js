@@ -112,6 +112,34 @@ module.exports = defineConfig({
           return { healedSelector, confidence };
         }
       });
+
+      // ── Capture real Mocha test pass/fail counts after every run ──
+      on('after:run', (results) => {
+        const testResultsPath = path.resolve(__dirname, 'cypress/reports/test-results.json');
+        const dir = path.dirname(testResultsPath);
+        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+
+        const summary = {
+          timestamp:     new Date().toISOString(),
+          totalTests:    results.totalTests   || 0,
+          totalPassed:   results.totalPassed  || 0,
+          totalFailed:   results.totalFailed  || 0,
+          totalPending:  results.totalPending || 0,
+          totalSkipped:  results.totalSkipped || 0,
+          totalDuration: results.totalDuration || 0,
+          specs: (results.runs || []).map(run => ({
+            spec:     run.spec?.relative || run.spec?.name || 'unknown',
+            tests:    run.stats?.tests    || 0,
+            passes:   run.stats?.passes   || 0,
+            failures: run.stats?.failures || 0,
+            pending:  run.stats?.pending  || 0,
+          }))
+        };
+
+        fs.writeFileSync(testResultsPath, JSON.stringify(summary, null, 2));
+        console.log(`\n📊 test-results.json written — Passed: ${summary.totalPassed} | Failed: ${summary.totalFailed} | Total: ${summary.totalTests}`);
+      });
+
       return config;
     },
   },

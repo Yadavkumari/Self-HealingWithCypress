@@ -25,10 +25,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Reset healing results for this run
+      - name: Reset test results for this run
         run: |
           mkdir -p cypress/reports
           echo '[]' > cypress/reports/healing-results.json
+          echo '{"totalTests":0,"totalPassed":0,"totalFailed":0,"totalPending":0,"totalSkipped":0,"totalDuration":0,"specs":[]}' > cypress/reports/test-results.json
 
       - name: Run Self-Healing Tests
         continue-on-error: true
@@ -73,6 +74,7 @@ jobs:
       - name: Process Historical Data
         run: |
           cp cypress/reports/healing-results.json src/tools/ || true
+          cp cypress/reports/test-results.json src/tools/ || true
           cp data-branch/history.json src/tools/ || true
           # Strip BOM and ensure valid JSON fallback
           node -e "

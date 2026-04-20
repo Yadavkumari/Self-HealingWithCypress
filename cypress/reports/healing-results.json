@@ -828,5 +828,167 @@
     "confidence": 0.85,
     "success": true,
     "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T07:58:30.715Z",
+    "intent": "Login Email Input",
+    "originalSelector": "#totally-broken-id-101",
+    "healedSelector": "input[type='email'], input[name='email'], input[placeholder*='email' i]",
+    "confidence": 0.95,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T07:58:44.615Z",
+    "intent": "Submit Login Button",
+    "originalSelector": "button.non-existent-login-btn-99",
+    "healedSelector": "button[type='submit'], form button, button.rw-btn-primary",
+    "confidence": 0.9,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T07:59:03.070Z",
+    "intent": "Login Email Input",
+    "originalSelector": "#broken-email-xyz-007",
+    "healedSelector": "input[type='email'], input[name='email'], input[placeholder*='email' i]",
+    "confidence": 0.95,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T07:59:18.429Z",
+    "intent": "Secure Password Field",
+    "originalSelector": "input#pwd-broken-404",
+    "healedSelector": "input[type='password'], input[name='password']",
+    "confidence": 0.97,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T07:59:56.295Z",
+    "intent": "Login Email Input",
+    "originalSelector": "#totally-broken-id-101",
+    "healedSelector": "input[type='email'], input[name='email'], input[placeholder*='email' i]",
+    "confidence": 0.95,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T08:00:10.384Z",
+    "intent": "Submit Login Button",
+    "originalSelector": "button.non-existent-login-btn-99",
+    "healedSelector": "button[type='submit'], form button, button.rw-btn-primary",
+    "confidence": 0.9,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T08:00:32.079Z",
+    "intent": "Login Email Input",
+    "originalSelector": "#totally-broken-id-101",
+    "healedSelector": "input[type='email'], input[name='email'], input[placeholder*='email' i]",
+    "confidence": 0.95,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T08:00:46.178Z",
+    "intent": "Submit Login Button",
+    "originalSelector": "button.non-existent-login-btn-99",
+    "healedSelector": "button[type='submit'], form button, button.rw-btn-primary",
+    "confidence": 0.9,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T08:01:07.998Z",
+    "intent": "Add to Cart Commerce Button",
+    "originalSelector": "#btn-invalid-commerce-uuid-42",
+    "healedSelector": "button[class*='cart' i], button[class*='add' i], button.rw-btn-primary",
+    "confidence": 0.85,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T08:12:26.638Z",
+    "intent": "Login Email Input",
+    "originalSelector": "#totally-broken-id-101",
+    "healedSelector": "input[type='email'], input[name='email'], input[placeholder*='email' i]",
+    "confidence": 0.95,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T08:12:43.025Z",
+    "intent": "Submit Login Button",
+    "originalSelector": "button.non-existent-login-btn-99",
+    "healedSelector": "button[type='submit'], form button, button.rw-btn-primary",
+    "confidence": 0.9,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T08:13:04.337Z",
+    "intent": "Login Email Input",
+    "originalSelector": "#broken-email-xyz-007",
+    "healedSelector": "input[type='email'], input[name='email'], input[placeholder*='email' i]",
+    "confidence": 0.95,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T08:13:19.347Z",
+    "intent": "Secure Password Field",
+    "originalSelector": "input#pwd-broken-404",
+    "healedSelector": "input[type='password'], input[name='password']",
+    "confidence": 0.97,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T08:13:53.600Z",
+    "intent": "Login Email Input",
+    "originalSelector": "#totally-broken-id-101",
+    "healedSelector": "input[type='email'], input[name='email'], input[placeholder*='email' i]",
+    "confidence": 0.95,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T08:14:08.056Z",
+    "intent": "Submit Login Button",
+    "originalSelector": "button.non-existent-login-btn-99",
+    "healedSelector": "button[type='submit'], form button, button.rw-btn-primary",
+    "confidence": 0.9,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T08:14:30.360Z",
+    "intent": "Login Email Input",
+    "originalSelector": "#totally-broken-id-101",
+    "healedSelector": "input[type='email'], input[name='email'], input[placeholder*='email' i]",
+    "confidence": 0.95,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T08:14:45.328Z",
+    "intent": "Submit Login Button",
+    "originalSelector": "button.non-existent-login-btn-99",
+    "healedSelector": "button[type='submit'], form button, button.rw-btn-primary",
+    "confidence": 0.9,
+    "success": true,
+    "source": "heuristic"
+  },
+  {
+    "timestamp": "2026-04-20T08:15:07.345Z",
+    "intent": "Add to Cart Commerce Button",
+    "originalSelector": "#btn-invalid-commerce-uuid-42",
+    "healedSelector": "button[class*='cart' i], button[class*='add' i], button.rw-btn-primary",
+    "confidence": 0.85,
+    "success": true,
+    "source": "heuristic"
   }
 ]
